@@ -34,5 +34,13 @@
             android:name="edu.westga.chrisdunmyerstaticfragments.DataDisplayFragment"
             android:id="@+id/dataDisplayFragment"
             tools:layout="@layout/fragment_data_display" />
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="edu.westga.chrisdunmyerstaticfragments.AdditionFragment"
+            android:id="@+id/additionFragment"
+            android:layout_gravity="center_horizontal"
+            tools:layout="@layout/fragment_addition" />
     </LinearLayout>
 </RelativeLayout>

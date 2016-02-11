@@ -9,7 +9,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="@string/multiply_button_text"
+        android:text="@string/data_entry_heading"
         android:id="@+id/textView"
         android:layout_gravity="center_horizontal" />
 

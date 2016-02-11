@@ -3,21 +3,13 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="edu.westga.chrisdunmyerstaticfragments.DataDisplayFragment">
-
+    tools:context="edu.westga.chrisdunmyerstaticfragments.AdditionFragment">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/default_product_result_value"
-        android:id="@+id/resultTextView"
-        android:layout_gravity="center_horizontal" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/add_button_text"
-        android:id="@+id/addButton"
+        android:text="@string/default_sum_result_value"
+        android:id="@+id/sumResultTextView"
         android:layout_gravity="center_horizontal" />
 </LinearLayout>

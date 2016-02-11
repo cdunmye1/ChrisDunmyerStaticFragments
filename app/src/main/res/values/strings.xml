@@ -2,7 +2,9 @@
     <string name="app_name">ChrisDunmyerStaticFragments</string>
     <string name="action_settings">Settings</string>
     <string name="multiply_button_text">Multiply</string>
+    <string name="data_entry_heading">Enter 2 numbers</string>
     <string name="enter_numbers_textfield_text">Enter 2 numbers</string>
-    <string name="default_result_value">0</string>
+    <string name="default_product_result_value">0</string>
+    <string name="default_sum_result_value">0</string>
     <string name="add_button_text">Add</string>
 </resources>
