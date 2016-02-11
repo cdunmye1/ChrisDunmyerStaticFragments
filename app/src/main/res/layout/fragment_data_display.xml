@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/default_result_value"
-        android:id="@+id/resultTextField"
+        android:id="@+id/resultTextView"
         android:layout_gravity="center_horizontal" />
 
     <Button
