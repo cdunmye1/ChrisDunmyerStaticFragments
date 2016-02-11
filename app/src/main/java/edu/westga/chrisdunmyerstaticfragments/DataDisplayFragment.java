@@ -15,8 +15,8 @@ import android.widget.TextView;
 public class DataDisplayFragment extends Fragment {
 
     private TextView resultTextView;
-    private double number1Text;
-    private double number2Text;
+    private double number1;
+    private double number2;
     private double productResult;
 
     public DataDisplayFragment() {
@@ -32,20 +32,20 @@ public class DataDisplayFragment extends Fragment {
         return theView;
     }
 
-    public void multiply(double number1, double number2) {
-        this.productResult = number1 * number2;
+    public void multiply() {
+        this.productResult = this.number1 * this.number2;
     }
 
     public void displayProduct() {
         resultTextView.setText(Double.toString(this.productResult));
     }
 
-    public void setNumber1Text(double number1Text) {
-        this.number1Text = number1Text;
+    public void setNumber1(double number1) {
+        this.number1 = number1;
     }
 
-    public void setNumber2Text(double number2Text) {
-        this.number2Text = number2Text;
+    public void setNumber2(double number2) {
+        this.number2 = number2;
     }
 
 }
